@@ -1,0 +1,56 @@
+body {
+	font-family: 'Nerko One', cursive;
+}
+.main{
+	background : #fff url("../images/background.jpg") repeat center center;
+}
+
+nav img.logo {
+	border-radius: 50px;
+}
+
+.menuImg {
+border-radius: 50px;
+height: 80px;
+width: 80px;
+}
+
+.main {
+	font-size: 1.5em;
+}
+
+h2{
+	color: #08a19e;
+	font-size: 2em;
+	text-shadow: 5px 5px 5px #fff;
+}
+.title {
+	font-weight: bold;
+}
+
+hr {
+    overflow: visible;
+    border-style: solid;
+    border-color: #610104;
+    border-width: 5px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #610104;
+    border-width: 0 0 10px 0;
+    border-radius: 20px;
+}
+
+.carousel img{
+	max-width:400px;
+	max-height:500px;
+}
+
+.carousel-item {
+	padding: 0;
+}
