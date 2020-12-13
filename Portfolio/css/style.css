@@ -1,0 +1,97 @@
+body{
+	background-color: #000;
+	/*background-image: linear-gradient(0deg,#000,transparent 70%,transparent),url(../images/bg.jpg);*/
+    background-position: 0 0,64% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; 
+}
+
+/*Heading*/
+nav {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	padding: 5px;
+	font-weight: bold;
+}
+
+hr{
+	background-color: #fff;
+	opacity: 1;
+}
+
+#nav .navbar-nav a.nav-link {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.section-separator{
+	background-color: #fff;
+	width:80%;
+	margin: 10px auto 20px ;
+
+}
+/****End of heading styling****/
+
+/*Writings*/
+section h1 {
+	color:#6123ad;
+	padding: 5px 0 20px;
+}
+#main .accordion-header{
+	font-weight: 100;
+}
+
+.accordion-button{
+	font-size: 1.2rem;
+	color: #fff;
+
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: transparent;
+}
+
+.accordion-button:focus{
+	box-shadow: 0 0 0 0.25rem rgba(97, 35, 173,.5);
+	border-color: transparent;
+}
+/****end of writings page styling****/
+
+/*Contact page*/
+#contactInfo{
+	margin-left: 15%;
+}
+#contactInfo h1 {
+	font-size: 3em;
+}
+#contactInfo h1, #contactInfo p {
+	padding-top: 15px ;
+}
+
+#contactInfo p , #contactInfo a , i{
+	font-size: 1.2em;
+}
+
+#contactInfo a {
+	text-decoration: none;
+}
+
+#contactInfo a, i{
+	color: #6123ad;
+	font-weight: bold;
+}
+/****End of Contact page styling****/
+
+/*Media queries*/
+@media (min-width: 768px){
+
+	#contact{
+		margin-left: auto;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-nav {
+		text-align: center;
+	}
+}
